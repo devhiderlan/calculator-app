@@ -1,0 +1,9 @@
+* {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 32px;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+}
