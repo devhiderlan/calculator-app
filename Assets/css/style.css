@@ -7,3 +7,59 @@ main {
   display: flex;
   height: 100vh;
 }
+
+.calculator-container {
+  margin: auto;
+  width: 25%;
+  padding: 15px;
+  min-width: 360px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container > p {
+  font-size: 0.7rem;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+}
+
+.slider-label {
+  font-size: 0.3rem;
+  margin-right: 10px;
+}
+
+.slider {
+  width: 1.4rem;
+  height: 0.5rem;
+  border-radius: 20px;
+  padding:2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider-dot {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+}
+
+.slider-dot:hover {
+  cursor: pointer;
+}
+
+.dot-label {
+  position: relative;
+  font-size:0.3rem;
+  bottom: 30px;
+  left: 4px;
+}
+
+
