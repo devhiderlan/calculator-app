@@ -46,8 +46,8 @@ main {
 }
 
 .slider-dot {
-  width: 0.4rem;
-  height: 0.4rem;
+  width: .4rem;
+  height: .4rem;
   border-radius: 50%;
 }
 
@@ -102,4 +102,57 @@ main {
   grid-column: span 2;
 }
 
+.calculator-key-del-res,
+.calculator-key-eq {
+  font-size: 0.6rem;
+}
+
 /* Coloring by theme */
+
+body.theme1 {
+  background-color: hsl(222, 26%, 31%);
+}
+
+.calculator-container.theme1 {
+  color: white;
+}
+
+.header-container.theme1 {
+  color: white;
+}
+
+.slider.theme1 {
+  background-color: hsl(224, 36%, 15%);
+}
+
+.slider-dot.theme1.active {
+  background-color: hsl(6, 63%, 50%);
+}
+
+.result-container.theme1 {
+  background-color: hsl(224, 36%, 15%);
+}
+
+.keyboard-container.theme1 {
+  background-color: hsl(223, 31%, 20%);
+}
+
+.calculator-number-key.theme1,
+.calculator-operation-key.theme1 {
+  background-color: hsl(30, 25%, 89%);
+  box-shadow: 0px 3px hsl(28, 16%, 65%);
+}
+
+.calculator-key-del-res.theme1 {
+  background-color: hsl(225, 21%, 49%);
+  box-shadow: 0px 3px hsl(224, 28%, 35%);
+  color: white;
+}
+
+.calculator-key-eq.theme1 {
+  background-color: hsl(6, 63%, 50%);
+  box-shadow: 0px 3px hsl(6, 70%, 34%);
+  color: white;
+}
+
+/* --------------Theme 2-------------- */
