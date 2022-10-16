@@ -156,3 +156,50 @@ body.theme1 {
 }
 
 /* --------------Theme 2-------------- */
+
+body.theme2 {
+  background-color: hsl(0, 0%, 90%);
+}
+
+.calculator-container.theme2 {
+  color: white;
+}
+
+.header-container.theme2 {
+  color: hsl(60, 10%, 19%);
+}
+
+.slider.theme2 {
+  background-color: hsl(0, 0%, 93%);
+}
+
+.slider-dot.theme2.active {
+  background-color: hsl(25, 98%, 40%);
+}
+
+.result-container.theme2 {
+  background-color: hsl(0, 0%, 93%);
+  color: hsl(60, 10%, 19%);
+}
+
+.keyboard-container.theme2 {
+  background-color: hsl(0, 5%, 81%);
+}
+
+.calculator-number-key.theme2,
+.calculator-operation-key.theme2 {
+  background-color: hsl(45, 7%, 89%);
+  box-shadow: 0px 3px hsl(35, 11%, 61%);
+}
+
+.calculator-key-del-res.theme2 {
+  background-color: hsl(185, 42%, 37%);
+  box-shadow: 0px 3px hsl(185, 58%, 25%);
+  color: white;
+}
+
+.calculator-key-eq.theme2 {
+  background-color: hsl(25, 98%, 40%);
+  box-shadow: 0px 3px hsl(25, 99%, 27%);
+  color: white;
+}
