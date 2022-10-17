@@ -203,3 +203,53 @@ body.theme2 {
   box-shadow: 0px 3px hsl(25, 99%, 27%);
   color: white;
 }
+
+/* --------------Theme 3-------------- */
+
+body.theme3 {
+  background-color: hsl(268, 75%, 9%);
+}
+
+.calculator-container.theme3 {
+  color: white;
+}
+
+.header-container.theme3 {
+  color: hsl(52, 100%, 62%);
+}
+
+.slider.theme3 {
+  background-color: hsl(268, 71%, 12%);
+}
+
+.slider-dot.theme3.active {
+  background-color: hsl(176, 100%, 44%);
+}
+
+.result-container.theme3 {
+  background-color: hsl(268, 71%, 12%);
+  color: hsl(52, 100%, 62%);
+}
+
+.keyboard-container.theme3 {
+  background-color: hsl(268, 71%, 12%);
+}
+
+.calculator-number-key.theme3,
+.calculator-operation-key.theme3 {
+  background-color: hsl(268, 47%, 21%);
+  box-shadow: 0px 3px hsl(290, 70%, 36%);
+  color: hsl(52, 100%, 62%);
+}
+
+.calculator-key-del-res.theme3 {
+  background-color: hsl(281, 89%, 26%);
+  box-shadow: 0px 3px hsl(285, 91%, 52%);
+  color: white;
+}
+
+.calculator-key-eq.theme3 {
+  background-color: hsl(176, 100%, 44%);
+  box-shadow: 0px 3px hsl(177, 92%, 70%);
+  color: hsl(198, 20%, 13%);
+}
